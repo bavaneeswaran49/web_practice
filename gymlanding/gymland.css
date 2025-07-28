@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    /* border: black 2px solid; */
+    margin-left: -2px;
+}
+
+/* top navigation */
+
+
+.nav{
+    display: flex;
+    background-color: #1b3453;
+    color: aliceblue;
+    height: 35px;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    /* margin-left: -6px; */
+    position: fixed;
+    z-index: 20;
+    top: 0px;
+    /* margin-top: -5px; */
+}
+.ic{
+    font-size: 12.5px;
+    margin-right: 10px;
+}
+.nav1 {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.nav0 {
+    display: flex;
+}
+.nav2{
+    display: flex;
+    margin-left: 475px;
+}
+.nav22{
+    border-right: 1px solid rgba(255, 255, 255, 0.507);
+}
+.nav29{
+    border-left: 1px rgba(255, 255, 255, 0.484) solid;
+    display: flex;
+}
+.nav11{
+    margin-left: 10px;
+}
+.nav3{
+    display: flex;
+}
+.nav4{
+    display: flex;
+}
+.nav5{
+    display: flex;
+}
+.nav31{
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 1px;
+}
+.nav32{
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 1px;
+}
+.nav41{
+    margin-left: 10px;
+}
+.nav42{
+    margin-left: 5px;
+    background-color: #4a6485;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.bgimg{
+    margin-top: 30px;
+    height: 595px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.inimg{
+    height: 40px;
+    width: 135px;
+    position: absolute;
+    z-index: 11;
+    top: 70px;
+    left: 150px;
+}
+.text{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    z-index: 14;
+    top: 80px;
+    left: 850px;
+}
+.text1{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition-duration: 0.1s;
+}
+.text2{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition-duration: 1s;border-bottom: 2px solid red;
+
+}
+.text1:hover{
+    border-bottom: 2px solid red;
+}
+.text31{
+    position: absolute;
+    z-index: 20;
+    top: 215px;
+    font-size: 50px;
+    left: 150px;
+}
+.text32{
+    position: absolute;
+    z-index: 23;
+    top: 300px;
+    font-weight: 500;
+    left: 150px;
+}
+.text33{
+    position: absolute;
+    z-index: 23;
+    top: 335px;
+    font-weight: 500;
+    left: 150px;
+}
+.box{
+    height: 30px;
+    width: 140px;
+    background-color:yellowgreen ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 33;
+    top: 400px;
+    left: 150px;
+    color: cornsilk;
+}
+.box:hover{
+    color: black;
+    background-color: white;
+    border: black 1px solid;
+}
