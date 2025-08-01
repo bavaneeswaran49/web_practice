@@ -45,11 +45,3 @@
 // var x=32;
 // console.log(x<12&&z>32); //and
 // console.log(z==32||x==12); //or
-
-// assignment operator
-// var a=10; 
-// console.log( a=a+10);//+=
-// console.log(a=a-10);//-=
-// console.log(a=a*10);//*=
-// console.log(a=a/10);// /=quotients
-// console.log(a=a%10);// %= reminder
